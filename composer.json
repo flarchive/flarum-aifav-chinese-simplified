@@ -1,0 +1,50 @@
+{
+    "name": "flarum-aifav/chinese-simplified",
+    "version": "2.0.1",
+    "description": "Flarum 2.0 简体中文语言包 - 全 AI 驱动完成，100% 翻译覆盖率",
+    "type": "flarum-extension",
+    "keywords": ["flarum", "locale", "extension", "chinese", "simplified", "简体中文"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AI Favorites Team",
+            "email": "admin@aifav.cn",
+            "homepage": "https://www.aifav.cn"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flarum-aifav/chinese-simplified/issues",
+        "source": "https://github.com/flarum-aifav/chinese-simplified",
+        "forum": "https://discuss.flarum.org/d/22690"
+    },
+    "require": {
+        "flarum/core": "^2.0.0-beta.8"
+    },
+    "replace": {
+        "flarum-lang/chinese-simplified": "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "flarum-extension": {
+            "title": "简体中文",
+            "category": "language",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#ffffff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "extiverse": {
+            "discuss": "https://discuss.flarum.org/d/22690"
+        },
+        "flarum-locale": {
+            "code": "zh",
+            "title": "简体中文"
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
